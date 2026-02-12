@@ -1,5 +1,7 @@
 package se.iths.lukas.towertheadventure.model;
 
+import se.iths.lukas.towertheadventure.model.Enemy;
+
 public class Room {
     private String name;
     private Enemy enemy;

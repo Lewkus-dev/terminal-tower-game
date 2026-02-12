@@ -1,0 +1,22 @@
+
+inputMismatchException
+när jag skrev in g som alternativ.
+
+validation är att man inte skickar vidare parametrar som skapar problem.
+om man skriver något annat än siffror till exempel så skickas de inte ens in
+så får man skriva in något annat värde.
+Istället för att fånga exceptions överallt där de skulle kunna inträffa.
+we have game init
+game run
+game close
+
+we have a game loop
+    overworld loop
+        battle loop
+
+overworld: display, listen, calculate...
+battle: display, listen, calculate...
+
+List.Of();?
+
+jag löste det med String[] cellarDescriptions = {};
